@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Te amo</title>
+    <link rel="icon" href="./assets/heart.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet"
+    href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css
+    />
+  </head>
+  <body>
+    <canvas></canvas>
+    <h1>Você quer namorar comigo?</h1>
+    <div id="buttons">
+      <button id="sim" onclick="responder(true)">
+        <span>Sim</span>
+        <i id="icone-coracao" class="fa fa-heart"></i>
+      </button>
+      <button id="nao" onclick="responder(false)" onmouseover="moverNao()">
+        <span>Não</span>
+      </button>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/target-mouse.js"></script>
+  </body>
+</html>
